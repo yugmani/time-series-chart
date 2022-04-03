@@ -16,9 +16,9 @@ const chart = new Chart(ctx, {
       {
         label: '#of Votes',
         data: [12, 19, 3, 5, 2, 3],
-        borderWidth: 1,
-        fill: false,
-        borderColor: 'blue',
+        borderWidth: 2,
+        fill: false,  // true -> to enable the fill color between the line and the x-axis.
+        borderColor: 'orange',
       },
     ],
   },
